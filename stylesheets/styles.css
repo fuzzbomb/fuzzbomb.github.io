@@ -88,11 +88,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#9A092D;
+  color:#90092b; /* hsl(345, 88%, 30%) */
+
 }
 
 a:hover {
-  color:#069;
+  color:#b10b35; /* hsl(345, 88%, 37%) */
 }
 
 a small {
