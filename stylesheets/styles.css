@@ -58,7 +58,7 @@ body {
   background-color: #fff;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  color:#444;
   font-weight:400;
 }
 
@@ -88,23 +88,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
-  text-decoration:none;
+  color:#90092b; /* hsl(345, 88%, 30%) */
+
 }
 
 a:hover {
-  color:#069;
-}
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
-}
-
-a:hover small {
-  color:#777;
+  color:#b10b35; /* hsl(345, 88%, 37%) */
 }
 
 .wrapper {
@@ -241,7 +230,6 @@ hr {
 }
 
 footer {
-  width:270px;
   float:left;
   position:fixed;
   bottom:50px;
